@@ -115,7 +115,7 @@ namespace Queue
             Node getMinNode(out Node predecessor)
             {
                 Node min_node = getMinNode();
-                
+
 
                 predecessor = null;
 
