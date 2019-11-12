@@ -133,7 +133,7 @@ namespace Queue
 
             Node extract_min() //yay, seems to work
             {
-                Node pre; //Vorgänger
+                Node pre; //predecessor
                 Node del = getMinNode(out pre);
                 Node res = del;
                 //Deleting min
